@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOME DA PÁGINA — ECOPONTO</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,300&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <!-- Copy from index.html and update the .active class to the correct tab -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">
+        <span class="logo-recycle">♻</span> ECOPONTO
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="../index.html" class="nav-link">Início</a>
+        <!-- Mark the current page as active: add class="nav-link active" -->
+        <a href="#" class="nav-link active">Nome da Página</a>
+        <!-- Add or remove tabs as needed -->
+      </nav>
+      <a href="#" class="btn-nav-cta">Começar</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== PAGE HERO ===================== -->
+  <section class="hero" style="min-height: 50vh; padding-top: 120px; padding-bottom: 60px;">
+    <div class="blob blob-1" aria-hidden="true"></div>
+    <div class="hero-inner" style="grid-template-columns: 1fr; text-align: center;">
+      <div class="hero-text" style="margin: 0 auto; max-width: 680px;">
+        <p class="hero-eyebrow">♻ ECOPONTO</p>
+        <h1 class="hero-title" style="font-size: clamp(3rem, 6vw, 5rem);">Nome da Página</h1>
+        <p class="hero-slogan">Subtítulo ou slogan da página.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <section class="how-section">
+    <div class="container">
+      <p class="section-tag">Seção</p>
+      <h2 class="section-title fade-in">Título da seção</h2>
+      <p class="section-sub fade-in">Descrição breve.</p>
+
+      <!-- Add your content here -->
+      <p style="text-align:center; color: var(--text-mid); margin-top: 40px;">
+        Conteúdo a ser adicionado em breve. 🌱
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-recycle">♻</span>
+        <span class="footer-name">ECOPONTO</span>
+        <span class="footer-tagline">— recicle, ganhe.</span>
+      </div>
+      <p class="footer-copy">© 2025 ECOPONTO. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
